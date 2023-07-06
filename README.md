@@ -9,7 +9,7 @@ Here what basically the homepage looks like
 
 the notifications are implemented by a react notification library, see the page for the memory tweet details and its interactions schema
 
-![memories timeline](https://github.com/Ebrahim-Ramadan/reactjs-memories-timeline/assets/65041082/cedf82ca-c417-4041-928f-e1b05c6c3bb1)
+![memories timeline](https://github.com/Ebrahim-Ramadan/reactjs-memories-timeline/assets/65041082/f527d357-f715-44f9-adac-922a75c41157)
 
 
 every option on every dropmenu has a unique ID and it's being watched by Redux, too. and so the comments and wishes in the very far right column of this page, check it
