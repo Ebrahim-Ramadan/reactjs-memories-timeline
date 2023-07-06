@@ -1,0 +1,113 @@
+.dzu-previewImage {
+    width: auto;
+    max-height: 161px;
+    max-width: 167px;
+    border-radius: 4px;
+}
+.pintura-editor {
+    height: 600px;
+}
+img{
+    cursor:grab;
+    border-radius: 5px;
+    width: fit-content;
+    transition: 0.3s;
+    /* height: 200px; */
+    position: relative;
+}
+img:hover{
+    opacity: 0.75;
+/* width: 300px; */
+/* height: fit-content; */
+/* height: fit-content; */
+}
+.container{
+    padding-top: 50px;
+    align-items: center;
+}
+.dropzone{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border: 2px solid rgba(238, 238, 238, 0.516);
+    border-radius: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+.dropzone:hover{
+    background-color:#2EA1D3;
+}
+.drag-instructions{
+    display: flex;
+    justify-content: space-between;
+}
+.drag-instructions span{
+    padding: 20px;
+    cursor:pointer;
+opacity: 0.8;
+transition: 0.2s;
+}
+.drag-instructions span:hover{
+    opacity: 1;
+}
+.drag-instructions span a{
+    color: rgb(242, 242, 242);
+    text-decoration: none;
+}
+.drag-instructions span a:hover{
+    text-decoration:underline;
+}
+#drag-p{
+    font-weight: bolder;
+    margin: 10px;
+    padding: 10px;
+    font-size: larger;
+}
+#alt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px;
+    position: absolute;
+    z-index: 1;
+    font-size: small;
+    font-weight: 400;
+    border-radius: 5px;
+    background-color:rgba(159, 159, 159, 0.415);
+cursor:auto;
+}
+.elips-dropmenu-memory{
+    position: absolute;
+    top: 230px;
+    right: 160px;
+    color: #ffffff;
+    padding: 10px;
+    z-index: 999;
+    border-radius: 8px;
+    background-color: #161B22;
+    box-shadow: 0 2px 5px rgba(177, 177, 177, 0.3);
+}
+.dropdownItem.memory{
+    cursor: pointer;
+    list-style: none;
+    padding: 5px 12px;
+    /* margin: 2px; */
+    font-size: 18px;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: 0.2s;
+border-radius: 5px;
+    opacity: 0.8;
+}
+.dropdownItem.memory:hover{
+    opacity: 1;
+    background-color: #b0b0b0;
+
+}
+
+.whathappened{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}

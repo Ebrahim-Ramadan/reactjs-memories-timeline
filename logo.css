@@ -1,0 +1,81 @@
+@keyframes animated_A1 {
+    0% {
+      stroke-dasharray: 0 500;
+    }
+
+    100% {
+      stroke-dasharray: 500 500;
+    }
+  }
+  .A1 {
+    animation-name: animated_A1;
+    animation-duration: 1800ms;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes animated_A2 {
+    0% {
+      stroke-dasharray: 0 400;
+    }
+
+    100% {
+      stroke-dasharray: 400 400;
+    }
+  }
+  .A2 {
+    opacity: 0;
+    animation-name: animated_A2;
+    animation-duration: 2000ms;
+    animation-delay: 350ms;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+  }
+  .A2.show {
+    opacity: 1;
+  }
+
+  @keyframes animated_B2 {
+    0% {
+      stroke-dasharray: 0 400;
+    }
+
+    100% {
+      stroke-dasharray: 400 400;
+    }
+  }
+  .B2 {
+    opacity: 0;
+    animation-name: animated_A2;
+    animation-duration: 2000ms;
+    animation-delay: 350ms;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+  }
+  .B2.show {
+    opacity: 1;
+  }
+
+  @keyframes animated_B3 {
+    0% {
+      stroke-dasharray: 0 400;
+    }
+
+    100% {
+      stroke-dasharray: 400 400;
+    }
+  }
+  .B3 {
+    opacity: 0;
+    animation-name: animated_A2;
+    animation-duration: 2000ms;
+    animation-delay: 350ms;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+  }
+  .B3.show {
+    opacity: 1;
+  }
+
+.svglogo{
+  font-size: 10px ;
+}

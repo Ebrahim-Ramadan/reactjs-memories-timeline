@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+  /* background-color: #161B22; */
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 120px;
+  padding-bottom: 180px;    background-color: #161B22;
+}
+
+.bigrow {
+  /* display: flex; */
+  overflow-x: hidden;
+  /* background-image: url('../assets/behindall bg.png'); */
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position:top;
+
+}
+
+.imagecolumn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column {
+  flex: 1;
+  box-shadow: 0 0 10px rgba(151, 151, 151, 0.2); /* Add box shadow */
+  border-radius: 8px;
+  background-color: #161B22;
+}
+
+.column.commentscolumn {
+  position: sticky;
+  right: 0;
+  top: 0;
+  background-color: #161B22;
+
+  flex: 0 0 370px;
+}
+
+.howandwhere {
+  padding: 35px 50px;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  flex-basis: 100%;
+  font-size: large;
+  font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu SansHelvetica Neue,Arial,sans-serif; 
+}
+.headerlayer img {
+  margin-left: 20px;
+  margin-right: 10px;
+  /* padding-top: 10px; */
+
+  width: 40px;
+  font-weight: bolder;
+}
+.inimagesreal span{
+  width: 2px;
+  height: 40px;
+  background-color: #4173be;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+
+}
+.headercol{
+  max-width: 355px;
+  margin: 11px 33px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.profileinfo{
+  display: flex;
+  /* display: inline-block; */
+  position: relative;
+  justify-content: center;
+}
+
+.profileinfo >*:hover{
+cursor: pointer;
+opacity: 0.8;
+
+}
+.profileinfo div{
+  transition: 0.2s;
+}
+.usernamefetched{
+  font-weight: bolder;
+  font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu SansHelvetica Neue,Arial,sans-serif; 
+}
+.imagecolumn .inimagesreal {
+  padding: 0px 40px 0 31px;
+}
+Button.unfollow-btn{
+  background-color: #EEE;
+  border: none;
+}
+.profileLayer{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.inimage {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-color: #4173be;
+  border-radius: 6px;
+  transition: transform 0.5s ease;
+}
+
+.inimage.selected {
+  transform: scale(2.2) ;
+  z-index: 2000;
+}
+
+.inimage img {
+  width: 150px;
+  border: 1px #4173be solid;
+  border-radius: 6px;
+  cursor: zoom-in;
+}
+
+
