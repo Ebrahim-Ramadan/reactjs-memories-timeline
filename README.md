@@ -4,12 +4,15 @@ memories timeline basic interactions and in-detailed memory info
 
 Here what basically the homepage looks like
 
-![memories timeline](https://github.com/Ebrahim-Ramadan/reactjs-memories-timeline/assets/65041082/9ce1a3aa-d50b-412f-8a5f-cef7068fcc8d)
+
+
+https://github.com/Ebrahim-Ramadan/reactjs-memories-timeline/assets/65041082/49c3f97d-93ab-468f-b29e-d66c1b7fd321
 
 
 
-the notifications are implemented by a react notification library, see the page for the memory tweet details and its interactions schema
-![memory indetails](https://github.com/Ebrahim-Ramadan/reactjs-memories-timeline/assets/65041082/f527d357-f715-44f9-adac-922a75c41157)
+
+
+the notifications are implemented by toastify, a react notification library, see the page for the memory tweet details and its interactions schema
 
 
 
