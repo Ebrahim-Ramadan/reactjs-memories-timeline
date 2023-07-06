@@ -4,7 +4,8 @@ memories timeline basic interactions and in-detailed memory info
 
 Here what basically the homepage looks like
 
-![memories timeline](https://github.com/Ebrahim-Ramadan/reactjs-memories-timeline/assets/65041082/9d30d596-6607-42a7-8d3a-7e484272f56b)
+![memories timeline](https://github.com/Ebrahim-Ramadan/reactjs-memories-timeline/assets/65041082/9ce1a3aa-d50b-412f-8a5f-cef7068fcc8d)
+
 
 
 the notifications are implemented by a react notification library, see the page for the memory tweet details and its interactions schema
