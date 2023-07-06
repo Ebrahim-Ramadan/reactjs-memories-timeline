@@ -1,6 +1,6 @@
 # reactjs-memories-timeline
 memories timeline basic interactions and in-detailed memory info
- - watching the followers for every user is done by Redux state managamenet, and so the likes and bookmarks of each memory tweet
+ - watching the followers for every user is done by Redux state managamenet, and so the likes and bookmarks of each memory tweet (check the files, naming conventions will guide you)
 
 Here what basically the homepage looks like
 
