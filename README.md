@@ -34,12 +34,12 @@ https://github.com/Ebrahim-Ramadan/reactjs-memories-timeline/assets/65041082/ac3
 <br>
 notifications => react-toastify<br>
 Popup => reactjs-popup <br>
-{ MDBListGroup, MDBListGroupItem } => mdb-react-ui-kit <br>
+>{ MDBListGroup, MDBListGroupItem } => mdb-react-ui-kit <br>
 Timepickers & dateTimePickers => mui/x-date-pickers<br>
 dayjs => dayjs<br>
 drag nad drop => react-dropzone<br>
 mui/material (sliders)<br>
-{ DragDropContext, Droppable, Draggable } => react-beautiful-dnd<br>
+>{ DragDropContext, Droppable, Draggable } => react-beautiful-dnd<br>
 
 <br>
 <br>
@@ -53,12 +53,12 @@ and same redux construction logic for bookmarks, likes, and so on
 <br><br>
 #### in store/index.js, I created a combineReducers from redux that contains 
 <br><br>
-const appReducers = combineReducers({
-    likes: LIKESReducer,
-    bookmark: BOOKMARKSReducer,
-    follow: Followreducer,
-    login: AuthReducer
-})
+>const appReducers = combineReducers({
+ >   likes: LIKESReducer,
+  >  bookmark: BOOKMARKSReducer,
+  >  follow: Followreducer,
+  >  login: AuthReducer
+>})
 <br>
 then export const store = createStore(appReducers, applyMiddleware(thunk)) to exoprt the whole store to the components
 <br>
