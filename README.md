@@ -5,6 +5,7 @@
 <br>
 #### Here what basically the homepage looks like
 <br>
+
 https://github.com/Ebrahim-Ramadan/reactjs-memories-timeline/assets/65041082/49c3f97d-93ab-468f-b29e-d66c1b7fd321
 
 <br>
@@ -13,8 +14,10 @@ https://github.com/Ebrahim-Ramadan/reactjs-memories-timeline/assets/65041082/49c
 
 #### the notifications are implemented by toastify, a react notification library, see the page for the memory tweet details and its interactions schema
 <br>
+
 https://github.com/Ebrahim-Ramadan/reactjs-memories-timeline/assets/65041082/ac306388-2b3a-4ed1-8b81-2c1d767df4db
 <br>
+
 <br>
 <br>
 
