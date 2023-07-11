@@ -53,12 +53,12 @@ and same redux construction logic for bookmarks, likes, and so on
 <br><br>
 #### in store/index.js, I created a combineReducers from redux that contains 
 <br><br>
->const appReducers = combineReducers({
- >   likes: LIKESReducer,
-  >  bookmark: BOOKMARKSReducer,
-  >  follow: Followreducer,
-  >  login: AuthReducer
->})
+const appReducers = combineReducers({
+<br>   likes: LIKESReducer,
+<br>  bookmark: BOOKMARKSReducer,
+<br>  follow: Followreducer,
+<br>  login: AuthReducer
+<br>})
 <br>
 then export const store = createStore(appReducers, applyMiddleware(thunk)) to exoprt the whole store to the components
 <br>
