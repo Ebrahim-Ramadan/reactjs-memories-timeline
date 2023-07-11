@@ -45,17 +45,22 @@ mui/material (sliders)<br>
 <br>
 <br>
 <br>
-#### React-Redux toolkit use <br><br><br>
-in store/actions/follow-action.js, I defined the FollowON and FollowOFF functions as action creators, to be used in store/reducers/follow-reducer.js in the reducer func.<br>
-and same redux construction logic for bookmarks, likes, and so on<br><br>
-####in store/index.js, I created a combineReducers from redux that contains <br><br>
+#### React-Redux toolkit use
+<br><br><br>
+in store/actions/follow-action.js, I defined the FollowON and FollowOFF functions as action creators, to be used in store/reducers/follow-reducer.js in the reducer func.
+<br>
+and same redux construction logic for bookmarks, likes, and so on
+<br><br>
+#### in store/index.js, I created a combineReducers from redux that contains 
+<br><br>
 const appReducers = combineReducers({
     likes: LIKESReducer,
     bookmark: BOOKMARKSReducer,
     follow: Followreducer,
     login: AuthReducer
-})<br>
+})
+<br>
 then export const store = createStore(appReducers, applyMiddleware(thunk)) to exoprt the whole store to the components
 
 <br>
-####then importing { useSelector } from 'react-redux' in the main component to make just the followState as (state) => state.follow (that's because the state has more than one reducer)
+#### then importing { useSelector } from 'react-redux' in the main component to make just the followState as (state) => state.follow (that's because the state has more than one reducer)
